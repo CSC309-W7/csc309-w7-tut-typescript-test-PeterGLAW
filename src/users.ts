@@ -2,7 +2,7 @@ import type { User } from "./types";
 
 export const apiResponse: unknown = [
   { name: "Tony", age: 23 },
-  { name: "Kevin", age: "24" }, // invalid
+  { name: "Kevin", age: 24 }, // invalid
   { name: "Jim", age: 25 },
 ];
 
